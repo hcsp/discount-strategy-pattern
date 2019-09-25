@@ -9,21 +9,5 @@ public class PriceCalculator {
     // public static int calculatePrice(DiscountStrategy strategy, int price, User user)
         public static int calculatePrice(DiscountStrategy strategy, int price, User user) {
             return strategy.discount(price,user);
-//        switch (discountStrategy) {
-//            case "NoDiscount":
-//                return price;
-//            case "Discount95":
-//                return (int) (price * 0.95);
-//            case "OnlyVip":
-//                {
-//                    if (user.isVip()) {
-//                        return (int) (price * 0.95);
-//                    } else {
-//                        return price;
-//                    }
-//                }
-//            default:
-//                throw new IllegalStateException("Should not be here!");
-//        }
     }
 }
