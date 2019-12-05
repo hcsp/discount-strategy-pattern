@@ -1,10 +1,11 @@
 package com.github.hcsp.polymorphism;
 
-public class NoDiscountStrategy extends AbstractStrategy {
+public abstract class AbstractStrategy {
 
-    @Override
+
     public int calculatePrice(int price, User user) {
-        return price;
+        return 0;
     }
+
 
 }
