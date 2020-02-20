@@ -8,7 +8,7 @@ public class PriceCalculator {
     // 重构后的方法签名：
     // public static int calculatePrice(DiscountStrategy strategy, int price, User user)
     public static int calculatePrice(DiscountStrategy strategy, int price, User user) {
-         return strategy.discount(price, user);
+        return strategy.discount(price, user);
 //        switch (discountStrategy) {
 //            case "NoDiscount":
 //                return price;
