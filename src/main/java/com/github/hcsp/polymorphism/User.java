@@ -10,18 +10,22 @@ public class User {
     }
 
     public static User vip(String name) {
+
         return new User(name, true);
     }
 
     public static User dios(String name) {
+
         return new User(name, false);
     }
 
     public String getName() {
+
         return name;
     }
 
     public boolean isVip() {
+
         return vip;
     }
 }
